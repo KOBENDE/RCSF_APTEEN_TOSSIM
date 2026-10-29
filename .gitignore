@@ -1,0 +1,12 @@
+# Fichiers generes par la compilation TOSSIM (make micaz sim)
+app/simbuild/
+app/_TOSSIMmodule.so
+app/TOSSIM.py
+app/app.xml
+*.pyc
+
+# Topologie regeneree par gen_topo.py a chaque compilation
+app/topo.h
+app/topo.csv
+
+.DS_Store

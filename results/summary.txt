@@ -1,0 +1,35 @@
+== APTEEN (100 noeuds) ==
+E initiale 50.00 J ; E residuelle round 1000 : 2.455 J
+FND 105  HND 764  LND None
+PDR 0.8542 (14473 recues / 16944 emises) ; types GEN {'2': 850, '3': 2681, '1': 12368, '0': 1045}
+Ctrl/round (rounds 1-100) 176.4 ; setup moyen 1.304 s
+Donnees emises/round (1-100) 25.9 ; CH/round 5.00
+  PDR rounds 1-250 : 0.831
+  PDR rounds 250-499 : 0.864
+  PDR rounds 500-749 : 0.864
+  PDR rounds 750-999 : 0.878
+== TEEN (100 noeuds) ==
+E initiale 50.00 J ; E residuelle round 1000 : 12.535 J
+FND 149  HND None  LND None
+PDR 0.8849 (5933 recues / 6705 emises) ; types GEN {'2': 319, '0': 265, '3': 1285, '1': 4836}
+Ctrl/round (rounds 1-100) 179.6 ; setup moyen 1.304 s
+Donnees emises/round (1-100) 9.5 ; CH/round 5.00
+  PDR rounds 1-250 : 0.876
+  PDR rounds 250-499 : 0.879
+  PDR rounds 500-749 : 0.891
+  PDR rounds 750-999 : 0.902
+== LEACH (100 noeuds) ==
+E initiale 50.00 J ; E residuelle round 1000 : 0.000 J
+FND 25  HND 281  LND 795
+PDR 0.7353 (20082 recues / 27311 emises) ; types GEN {'2': 1372, '3': 3901, '1': 18907, '0': 3131}
+Ctrl/round (rounds 1-100) 165.4 ; setup moyen 1.299 s
+Donnees emises/round (1-100) 96.3 ; CH/round 4.84
+  PDR rounds 1-250 : 0.699
+  PDR rounds 250-499 : 0.821
+  PDR rounds 500-749 : 0.980
+  PDR rounds 750-999 : 0.985
+== Passage a l'echelle (rounds 1-100) ==
+N  setup_moy(s)  setup_max(s)  ctrl/round  ctrl/noeud/round  PDR  orphelins%
+ 50  1.287  1.383  72.7  1.45  0.867  10.6
+100  1.304  1.387  176.4  1.76  0.826  1.4
+300  1.343  1.385  677.7  2.26  0.717  0.0
